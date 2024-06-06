@@ -233,6 +233,241 @@ body {
     display: flex;
     justify-content: space-around;
     font-size: 20px;
-
 }
 
+.grid-1{
+    display: grid;
+    grid-template-areas:
+    "A    B    C"
+    "A1   B1   C1";
+    column-gap:  50px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.A1{
+    grid-area: A1;
+    padding-left: 80px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.B1{
+    grid-area: B1;
+    padding-left: 80px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.C1{
+    grid-area: C1;
+    padding-left: 80px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.stars{
+    padding-left: 75px;
+    padding-top: 10px;
+}
+
+.summ{
+    font-weight: 800;
+    font-size: 22px;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+.btn-3{
+    padding-top: 50px;
+    padding-left: 90px;
+}
+
+.view-part{
+    position: relative;
+    padding-top: 136px;
+    padding-left: -50px;
+}
+
+.img-text{
+    position: absolute;
+    top: 0;
+    padding-top: 300px;
+    padding-left: 300px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.img-text1{
+    position: absolute;
+    top: 0;
+    padding-top: 450px;
+    padding-left: 300px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.dunk-img{
+    position: absolute;
+    padding-top: 50px;
+    padding-left: -50px;
+}
+
+.btn-7{
+    background-color: rgba(92, 190, 58, 1);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 1080px;
+    top: 360px;
+    border: none solid;
+    border-radius: 100%;
+}
+
+.button-7{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+
+.block-left1{
+    padding-top: 136px;
+    padding-left: 50px;
+}
+
+.block-right1{
+    margin-top: 2590px;
+    padding-left: 250px;
+    font-size: 27px;
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    width: 50%;
+}
+
+.swoosh-text{
+    position: absolute;
+    top: 0;
+    margin-top: 2550px;
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 905px;
+}
+
+.list-1{
+    list-style-image: url(img/swoosh-list.png); 
+    position: absolute;
+    top: 0;
+    margin-top: 2700px;
+    padding-left: 950px;
+}
+
+.list-child{
+    padding-top: 25px;
+}
+
+.lastsection{
+    position: relative;
+    margin-top: 145px;
+    margin-left: 600px;
+}
+
+.lastsection1{
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 800px;
+}
+
+.rounds{
+    margin-top: -200px;
+    margin-left: 250px;
+}
+
+.first-round{
+    padding-right: 25px;
+}
+
+.second-round{
+    padding-right: 25px;
+}
+
+.arrow{
+    margin-top: -100px;
+    margin-left: 0px;
+}
+
+.getstarted{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.top2{
+    position: absolute;
+}
+
+.top1{
+    position: relative;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 450px;
+    padding-top: 100px;
+}
+
+.top-3{
+    position: relative;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 370px;
+    padding-top: 30px;
+}
+
+.top-4{
+    position: relative;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 440px;
+}
+
+.footer-line{
+    padding-top: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.follow{
+    display: flex;
+    align-items: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.follow1{
+    padding-right: 40px;
+}
+
+.icon1{
+    padding-right: 15px;
+}
+
+.icon2{
+    padding-right: 15px;
+}
+
+.nav-item1{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    margin-right: 25px;
+    transition: color 0.3s linear;
+}
+
+.end{
+    background-color: rgba(92, 190, 58, 1);
+    margin-left: -200px;
+    width: 1900px;
+    margin-top: 50px;
+}
